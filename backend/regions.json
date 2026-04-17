@@ -1,0 +1,46 @@
+[
+  {
+    "region_id": "us-west-1",
+    "name": "Oregon",
+    "pue": 1.12,
+    "wue": 0.5,
+    "ewif": 0.8,
+    "wsf": 0.2,
+    "carbon_intensity": 150,
+    "available_capacity": 1000,
+    "latency_to_user_ms": 45
+  },
+  {
+    "region_id": "us-east-1",
+    "name": "Virginia",
+    "pue": 1.15,
+    "wue": 0.3,
+    "ewif": 0.9,
+    "wsf": 0.1,
+    "carbon_intensity": 300,
+    "available_capacity": 500,
+    "latency_to_user_ms": 15
+  },
+  {
+    "region_id": "europe-west-1",
+    "name": "Ireland",
+    "pue": 1.10,
+    "wue": 0.1,
+    "ewif": 0.5,
+    "wsf": 0.05,
+    "carbon_intensity": 80,
+    "available_capacity": 200,
+    "latency_to_user_ms": 120
+  },
+  {
+    "region_id": "asia-east-1",
+    "name": "Taiwan",
+    "pue": 1.20,
+    "wue": 1.2,
+    "ewif": 1.0,
+    "wsf": 0.8,
+    "carbon_intensity": 450,
+    "available_capacity": 2000,
+    "latency_to_user_ms": 200
+  }
+]
