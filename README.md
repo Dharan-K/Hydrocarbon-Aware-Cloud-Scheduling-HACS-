@@ -123,9 +123,4 @@ npm run dev
 
 ---
 
-## 🎥 Demo Explanation
 
-During a presentation or hackathon demo, try the following flow:
-1. **The Constraints:** Show how setting a tight latency limit (e.g., `20ms`) forces the scheduler to pick a closer, potentially "dirtier" region like Virginia.
-2. **The Presets:** Loosen the latency, then click between the **Carbon Priority** and **Water Priority** presets. Watch how the selected region dynamically changes (e.g., from Ireland to Oregon) depending on the active policy.
-3. **The Impact:** Highlight the large green and blue Impact widgets, demonstrating that intelligent routing can save upwards of 70% in environmental costs compared to a standard scheduler without degrading performance requirements.
