@@ -3,7 +3,7 @@ import axios from 'axios';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer, CartesianGrid } from 'recharts';
 import { Leaf, Droplets, Zap, Activity, CheckCircle2, Clock, Scale } from 'lucide-react';
 
-const API_BASE = 'http://127.0.0.1:5000/api';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:5000/api';
 
 function App() {
   const [regions, setRegions] = useState([]);
